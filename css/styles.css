@@ -136,26 +136,64 @@ color: #3c959d !important;
 
 	}
 
-
 .bg {
 	position: relative;
 	margin: 0 -15px;
-	padding: 25px 0;
-	background: url(../img/bg.jpg);
+	padding: 45px 0;
+	background: url(../img/tazza-uvodni-fotografie_oud32e_c_scale,w_346.jpg) center center;
 	background-size: cover;
-}		
-.bg:before {
-	/*content: "";*/
-	background: url(../img/bg.jpg);
-	background-size: cover;
-	display: block;
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 0;
 }
+@media all and (min-width: 347px) {
+	.bg {
+		background-image: url(../img/tazza-uvodni-fotografie_oud32e_c_scale,w_458.jpg);
+	}
+}
+@media all and (min-width: 459px) {
+	.bg {
+		background-image: url(../img/tazza-uvodni-fotografie_oud32e_c_scale,w_551.jpg);
+	}
+}
+@media all and (min-width: 552px) {
+	.bg {
+		background-image: url(../img/tazza-uvodni-fotografie_oud32e_c_scale,w_641.jpg);
+	}
+}
+@media all and (min-width: 642px) {
+	.bg {
+		background-image: url(../img/tazza-uvodni-fotografie_oud32e_c_scale,w_722.jpg);
+	}
+}
+@media all and (min-width: 723px) {
+	.bg {
+		background-image: url(../img/tazza-uvodni-fotografie_oud32e_c_scale,w_800.jpg);
+		padding: 90px 0;
+	}
+}
+@media all and (min-width: 801px) {
+	.bg {
+		background-image: url(../img/tazza-uvodni-fotografie_oud32e_c_scale,w_880.jpg);
+		padding: 110px 0;
+	}
+}
+@media all and (min-width: 881px) {
+	.bg {
+		background-image: url(../img/tazza-uvodni-fotografie_oud32e_c_scale,w_942.jpg);
+		padding: 140px 0;
+	}
+}
+@media all and (min-width: 943px) {
+	.bg {
+		background-image: url(../img/tazza-uvodni-fotografie_oud32e_c_scale,w_1024.jpg);
+		padding: 170px 0;
+	}
+}
+@media all and (min-width: 1025px) {
+	.bg {
+		background-image: url(../img/tazza-uvodni-fotografie_oud32e_c_scale,w_1920.jpg);
+		padding: 190px 0;
+	}
+}
+
 
 .bg h2 {
 	font-size: 1.1em;
@@ -175,9 +213,6 @@ color: #3c959d !important;
 
 @media all and (min-width: 600px) {
 
-	.bg {
-		padding: 50px 0;
-	}
 	.bg h2 {
 		font-size: 2em;
 	}
